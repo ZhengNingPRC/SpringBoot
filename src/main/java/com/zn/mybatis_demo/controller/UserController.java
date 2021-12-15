@@ -23,7 +23,7 @@ public class UserController {
 
     @GetMapping("/addUser/{id}")
     public String addUser(@PathVariable("id") int id){
-        userMapper.addUser(new User(id,"小王","123456"));
+        userMapper.addUser(new User(id,"小王11","123456"));
         return "add complete!";
     }
 
